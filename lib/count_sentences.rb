@@ -7,6 +7,7 @@ class String
       true
     else false
   end
+  end
 
   def question?
       "What's your name?".end_with?("?")
