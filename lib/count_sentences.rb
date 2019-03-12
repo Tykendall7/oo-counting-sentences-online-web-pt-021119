@@ -4,8 +4,8 @@ class String
 
   def sentence?
     if "Hi, my name is Sophie.".end_with?(".")
-      TRUE
-    else
+      true
+    else false
   end
 
   def question?
